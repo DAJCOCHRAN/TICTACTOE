@@ -1,0 +1,17 @@
+querrySelectorAll('.content div')
+pulls all div objects into an array
+
+[we want to use divs for the click events]
+
+then use a for loop
+for(int i=0; i<=length(divobj); i++){
+    obj[i].addEventListener('click', clicked)
+}
+
+create an img
+diva = event.currentTarget(event)
+img1 = document.createElement('img')
+
+use appendChild Method to add to a div container
+
+check if any of the boxes are checked off
